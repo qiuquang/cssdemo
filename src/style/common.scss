@@ -1,0 +1,14 @@
+// 常量
+$common-color: #eee;
+$common-fontSize: 100px;
+$common-backgroundColor: blue;
+// 混入
+@mixin inAndin{
+  color: red;
+  font-size: 25px;
+}
+@mixin important-text {
+  @include  inAndin;
+  font-weight: bold;
+  border: 1px solid blue;
+}
