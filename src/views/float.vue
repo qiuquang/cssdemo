@@ -1,8 +1,8 @@
 <template>
 <div class="father">
   <!-- 1.盒子 -->
-  <div class="containBox">
-  <div class="box">I am Box</div></div>
+  <!-- <div class="containBox">
+  <div class="box">I am Box</div></div> -->
   <!-- 2.float -->
   <!-- <div class="one"></div>
   <div class="two"></div>

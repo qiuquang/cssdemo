@@ -3,8 +3,8 @@
   <div class="one">我是第1个</div>
   <!-- <div class="two">我是第2个</div> -->
   <!-- <div class="three">我是第3个</div> -->
-  <!-- <div class="four">我是第4个</div>
-  <div class="five">我是第5个</div> -->
+  <!-- <div class="four">我是第4个</div> -->
+  <!-- <div class="five">我是第5个</div> -->
   <!-- <div style="clear:both;">333</div> -->
 </div>
 </template>
@@ -53,17 +53,17 @@ export default {
     color: #fff;
     float: left;
     z-index: 0;
-    // position: relative;
+    position: relative;
   }
   .five{
     height: 400px;
     width: 400px;
     line-height: 400px;
     background-color: #772;
-    color: #000;
+    color: #fff;
     z-index: 1;
     // clear: both;
-    // position: relative;
+    position: relative;
     // float: left;
   }
 }

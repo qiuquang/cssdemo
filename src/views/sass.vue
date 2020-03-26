@@ -2,6 +2,7 @@
 <div class="sassDemo">
   <div class="lineOne">欢迎使用sass</div>
   <div class="important">这是从mixin来的样式</div>
+  <div class="changeStyle">文字居中</div>
 </div>
 </template>
 
@@ -20,7 +21,16 @@ export default {
   }
   .important {
   @include important-text;
-  background-color: blue;
-}
+  font-size: 25px;
+  background-color: #eee;
+  }
+  .changeStyle {
+    @extend .important;
+    margin: 10px;
+    background-color: #eee;
+    height: $com-size;
+    line-height: $com-size;
+    font-size: $com-fontsize;
+  }
 }
 </style>
