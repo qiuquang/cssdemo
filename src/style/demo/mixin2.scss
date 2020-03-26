@@ -1,0 +1,21 @@
+@mixin b($block) {
+  .#{$block} {
+    @content;
+  }
+}
+
+@mixin e($element) {
+  @at-root {
+    #{&}__#{$element} {
+      @content;
+    }
+  }
+}
+
+@mixin m($modifer) {
+  @at-root {
+    #{&}--#{$modifer} {
+      @content;
+    }
+  }
+}

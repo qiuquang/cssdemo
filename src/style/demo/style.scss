@@ -1,0 +1,10 @@
+@import 'mixin2.scss';
+@include b("human") {
+  color: red;
+  @include e("figer") {
+    width: 200px;
+    @include m('little') {
+      background: green;
+    }
+  }
+}

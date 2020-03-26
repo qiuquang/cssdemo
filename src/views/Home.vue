@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.jpg">
-    <HelloWorld msg="Welcome to Your CSS Sharing"/>
+    <HelloWorld msg="Welcome to QQ's CSS Sharing"/>
   </div>
 </template>
 
