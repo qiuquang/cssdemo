@@ -1,6 +1,6 @@
 <template>
 <div class="sassDemo">
-  <div class="lineOne">欢迎使用sass</div>
+  <div class="lineOne">欢迎使用sass-t1</div>
   <div class="important">这是从mixin来的样式</div>
   <div class="changeStyle">文字居中</div>
 </div>
